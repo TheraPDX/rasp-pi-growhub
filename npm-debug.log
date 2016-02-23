@@ -1,0 +1,890 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json rasp-pi-growhub@0.1.5 No repository field.
+6 warn package.json rasp-pi-growhub@0.1.5 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/jacobhartnell/Dev/grow-examples/raspberry-pi',
+8 verbose install   [ 'ddp',
+8 verbose install     'ddp-ejson',
+8 verbose install     'later',
+8 verbose install     'underscore',
+8 verbose install     'johnny-five',
+8 verbose install     'grow.js',
+8 verbose install     'raspi-io' ] ]
+9 info preinstall rasp-pi-growhub@0.1.5
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'ddp@>=0.11.0', null ]
+12 verbose cache add name=undefined spec="ddp@>=0.11.0" args=["ddp@>=0.11.0",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'ddp@%3E=0.11.0',
+13 verbose parsed url   path: 'ddp@%3E=0.11.0',
+13 verbose parsed url   href: 'ddp@%3E=0.11.0' }
+14 verbose cache add [ 'ddp-ejson@>=0.8.1-3', null ]
+15 verbose cache add name=undefined spec="ddp-ejson@>=0.8.1-3" args=["ddp-ejson@>=0.8.1-3",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'ddp-ejson@%3E=0.8.1-3',
+16 verbose parsed url   path: 'ddp-ejson@%3E=0.8.1-3',
+16 verbose parsed url   href: 'ddp-ejson@%3E=0.8.1-3' }
+17 verbose cache add [ 'later@^1.2.0', null ]
+18 verbose cache add name=undefined spec="later@^1.2.0" args=["later@^1.2.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'later@^1.2.0',
+19 verbose parsed url   path: 'later@^1.2.0',
+19 verbose parsed url   href: 'later@^1.2.0' }
+20 verbose cache add [ 'underscore@>=1.8.3', null ]
+21 verbose cache add name=undefined spec="underscore@>=1.8.3" args=["underscore@>=1.8.3",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'underscore@%3E=1.8.3',
+22 verbose parsed url   path: 'underscore@%3E=1.8.3',
+22 verbose parsed url   href: 'underscore@%3E=1.8.3' }
+23 verbose cache add [ 'johnny-five@^0.9.19', null ]
+24 verbose cache add name=undefined spec="johnny-five@^0.9.19" args=["johnny-five@^0.9.19",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'johnny-five@^0.9.19',
+25 verbose parsed url   path: 'johnny-five@^0.9.19',
+25 verbose parsed url   href: 'johnny-five@^0.9.19' }
+26 verbose cache add name="ddp" spec=">=0.11.0" args=["ddp",">=0.11.0"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '%3E=0.11.0',
+27 verbose parsed url   path: '%3E=0.11.0',
+27 verbose parsed url   href: '%3E=0.11.0' }
+28 verbose addNamed [ 'ddp', '>=0.11.0' ]
+29 verbose addNamed [ null, '>=0.11.0' ]
+30 verbose cache add name="ddp-ejson" spec=">=0.8.1-3" args=["ddp-ejson",">=0.8.1-3"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '%3E=0.8.1-3',
+31 verbose parsed url   path: '%3E=0.8.1-3',
+31 verbose parsed url   href: '%3E=0.8.1-3' }
+32 verbose addNamed [ 'ddp-ejson', '>=0.8.1-3' ]
+33 verbose addNamed [ null, '>=0.8.1-3' ]
+34 verbose cache add name="later" spec="^1.2.0" args=["later","^1.2.0"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '^1.2.0',
+35 verbose parsed url   path: '^1.2.0',
+35 verbose parsed url   href: '^1.2.0' }
+36 verbose addNamed [ 'later', '^1.2.0' ]
+37 verbose addNamed [ null, '>=1.2.0-0 <2.0.0-0' ]
+38 verbose cache add name="underscore" spec=">=1.8.3" args=["underscore",">=1.8.3"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '%3E=1.8.3',
+39 verbose parsed url   path: '%3E=1.8.3',
+39 verbose parsed url   href: '%3E=1.8.3' }
+40 verbose addNamed [ 'underscore', '>=1.8.3' ]
+41 verbose addNamed [ null, '>=1.8.3' ]
+42 verbose cache add [ 'grow.js@^0.1.2', null ]
+43 verbose cache add name=undefined spec="grow.js@^0.1.2" args=["grow.js@^0.1.2",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'grow.js@^0.1.2',
+44 verbose parsed url   path: 'grow.js@^0.1.2',
+44 verbose parsed url   href: 'grow.js@^0.1.2' }
+45 verbose cache add [ 'raspi-io@^5.2.0', null ]
+46 verbose cache add name=undefined spec="raspi-io@^5.2.0" args=["raspi-io@^5.2.0",null]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'raspi-io@^5.2.0',
+47 verbose parsed url   path: 'raspi-io@^5.2.0',
+47 verbose parsed url   href: 'raspi-io@^5.2.0' }
+48 verbose cache add name="johnny-five" spec="^0.9.19" args=["johnny-five","^0.9.19"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '^0.9.19',
+49 verbose parsed url   path: '^0.9.19',
+49 verbose parsed url   href: '^0.9.19' }
+50 verbose addNamed [ 'johnny-five', '^0.9.19' ]
+51 verbose addNamed [ null, '>=0.9.19-0 <0.10.0-0' ]
+52 silly lockFile e8427880-ddp-0-11-0 ddp@>=0.11.0
+53 verbose lock ddp@>=0.11.0 /home/jacobhartnell/.npm/e8427880-ddp-0-11-0.lock
+54 silly lockFile 31a652e8-ddp-ejson-0-8-1-3 ddp-ejson@>=0.8.1-3
+55 verbose lock ddp-ejson@>=0.8.1-3 /home/jacobhartnell/.npm/31a652e8-ddp-ejson-0-8-1-3.lock
+56 silly lockFile 8e0f69b1-later-1-2-0 later@^1.2.0
+57 verbose lock later@^1.2.0 /home/jacobhartnell/.npm/8e0f69b1-later-1-2-0.lock
+58 silly lockFile 0649f45b-underscore-1-8-3 underscore@>=1.8.3
+59 verbose lock underscore@>=1.8.3 /home/jacobhartnell/.npm/0649f45b-underscore-1-8-3.lock
+60 silly lockFile a775ca05-johnny-five-0-9-19 johnny-five@^0.9.19
+61 verbose lock johnny-five@^0.9.19 /home/jacobhartnell/.npm/a775ca05-johnny-five-0-9-19.lock
+62 verbose cache add name="grow.js" spec="^0.1.2" args=["grow.js","^0.1.2"]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: '^0.1.2',
+63 verbose parsed url   path: '^0.1.2',
+63 verbose parsed url   href: '^0.1.2' }
+64 verbose addNamed [ 'grow.js', '^0.1.2' ]
+65 verbose addNamed [ null, '>=0.1.2-0 <0.2.0-0' ]
+66 silly lockFile efa081ee-grow-js-0-1-2 grow.js@^0.1.2
+67 verbose lock grow.js@^0.1.2 /home/jacobhartnell/.npm/efa081ee-grow-js-0-1-2.lock
+68 verbose cache add name="raspi-io" spec="^5.2.0" args=["raspi-io","^5.2.0"]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: '^5.2.0',
+69 verbose parsed url   path: '^5.2.0',
+69 verbose parsed url   href: '^5.2.0' }
+70 verbose addNamed [ 'raspi-io', '^5.2.0' ]
+71 verbose addNamed [ null, '>=5.2.0-0 <6.0.0-0' ]
+72 silly lockFile 5ebb9da6-raspi-io-5-2-0 raspi-io@^5.2.0
+73 verbose lock raspi-io@^5.2.0 /home/jacobhartnell/.npm/5ebb9da6-raspi-io-5-2-0.lock
+74 silly addNameRange { name: 'ddp', range: '>=0.11.0', hasData: false }
+75 silly addNameRange { name: 'johnny-five',
+75 silly addNameRange   range: '>=0.9.19-0 <0.10.0-0',
+75 silly addNameRange   hasData: false }
+76 silly addNameRange { name: 'grow.js', range: '>=0.1.2-0 <0.2.0-0', hasData: false }
+77 silly addNameRange { name: 'ddp-ejson', range: '>=0.8.1-3', hasData: false }
+78 silly addNameRange { name: 'later', range: '>=1.2.0-0 <2.0.0-0', hasData: false }
+79 silly addNameRange { name: 'raspi-io', range: '>=5.2.0-0 <6.0.0-0', hasData: false }
+80 silly addNameRange { name: 'underscore', range: '>=1.8.3', hasData: false }
+81 verbose request where is /grow.js
+82 verbose request registry https://registry.npmjs.org/
+83 verbose request id 205b4bdd940b0ac9
+84 verbose url raw /grow.js
+85 verbose url resolving [ 'https://registry.npmjs.org/', './grow.js' ]
+86 verbose url resolved https://registry.npmjs.org/grow.js
+87 verbose request where is https://registry.npmjs.org/grow.js
+88 info trying registry request attempt 1 at 13:44:32
+89 verbose etag "DP2TUPM4URO082F50WELD30KE"
+90 http GET https://registry.npmjs.org/grow.js
+91 verbose request where is /ddp-ejson
+92 verbose request registry https://registry.npmjs.org/
+93 verbose url raw /ddp-ejson
+94 verbose url resolving [ 'https://registry.npmjs.org/', './ddp-ejson' ]
+95 verbose url resolved https://registry.npmjs.org/ddp-ejson
+96 verbose request where is https://registry.npmjs.org/ddp-ejson
+97 info trying registry request attempt 1 at 13:44:32
+98 verbose etag "2BN62634OIGTPJJ8A0NOGUJD5"
+99 http GET https://registry.npmjs.org/ddp-ejson
+100 verbose request where is /ddp
+101 verbose request registry https://registry.npmjs.org/
+102 verbose url raw /ddp
+103 verbose url resolving [ 'https://registry.npmjs.org/', './ddp' ]
+104 verbose url resolved https://registry.npmjs.org/ddp
+105 verbose request where is https://registry.npmjs.org/ddp
+106 info trying registry request attempt 1 at 13:44:32
+107 verbose etag "4JXLK854VF6V8QT2WX5ZCUXXQ"
+108 http GET https://registry.npmjs.org/ddp
+109 verbose request where is /johnny-five
+110 verbose request registry https://registry.npmjs.org/
+111 verbose url raw /johnny-five
+112 verbose url resolving [ 'https://registry.npmjs.org/', './johnny-five' ]
+113 verbose url resolved https://registry.npmjs.org/johnny-five
+114 verbose request where is https://registry.npmjs.org/johnny-five
+115 info trying registry request attempt 1 at 13:44:32
+116 verbose etag "EQWIOCVQMNT1XB85ZQWNPEM2L"
+117 http GET https://registry.npmjs.org/johnny-five
+118 verbose request where is /later
+119 verbose request registry https://registry.npmjs.org/
+120 verbose url raw /later
+121 verbose url resolving [ 'https://registry.npmjs.org/', './later' ]
+122 verbose url resolved https://registry.npmjs.org/later
+123 verbose request where is https://registry.npmjs.org/later
+124 info trying registry request attempt 1 at 13:44:32
+125 verbose etag "NBHALC27L9JN9ILB17CVGJZ4"
+126 http GET https://registry.npmjs.org/later
+127 verbose request where is /underscore
+128 verbose request registry https://registry.npmjs.org/
+129 verbose url raw /underscore
+130 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+131 verbose url resolved https://registry.npmjs.org/underscore
+132 verbose request where is https://registry.npmjs.org/underscore
+133 info trying registry request attempt 1 at 13:44:32
+134 verbose etag "D0IUO3HJK9NHNJ1V3XZZIDB0S"
+135 http GET https://registry.npmjs.org/underscore
+136 verbose request where is /raspi-io
+137 verbose request registry https://registry.npmjs.org/
+138 verbose url raw /raspi-io
+139 verbose url resolving [ 'https://registry.npmjs.org/', './raspi-io' ]
+140 verbose url resolved https://registry.npmjs.org/raspi-io
+141 verbose request where is https://registry.npmjs.org/raspi-io
+142 info trying registry request attempt 1 at 13:44:32
+143 verbose etag "9KE5N9V1AY4XSMI6G8XKYXJQ7"
+144 http GET https://registry.npmjs.org/raspi-io
+145 http 200 https://registry.npmjs.org/later
+146 silly registry.get cb [ 200,
+146 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+146 silly registry.get     etag: '"ERYKNP04TBWHBO7H5DUQJ4OTS"',
+146 silly registry.get     'content-type': 'application/json',
+146 silly registry.get     'cache-control': 'max-age=300',
+146 silly registry.get     'content-length': '32954',
+146 silly registry.get     'accept-ranges': 'bytes',
+146 silly registry.get     date: 'Tue, 23 Feb 2016 21:44:33 GMT',
+146 silly registry.get     via: '1.1 varnish',
+146 silly registry.get     age: '173',
+146 silly registry.get     connection: 'keep-alive',
+146 silly registry.get     'x-served-by': 'cache-sjc3122-SJC',
+146 silly registry.get     'x-cache': 'HIT',
+146 silly registry.get     'x-cache-hits': '1',
+146 silly registry.get     'x-timer': 'S1456263873.113366,VS0,VE0',
+146 silly registry.get     vary: 'Accept' } ]
+147 silly addNameRange number 2 { name: 'later', range: '>=1.2.0-0 <2.0.0-0', hasData: true }
+148 silly addNameRange versions [ 'later',
+148 silly addNameRange   [ '0.0.1',
+148 silly addNameRange     '0.0.2',
+148 silly addNameRange     '0.0.4',
+148 silly addNameRange     '0.0.5',
+148 silly addNameRange     '0.0.6',
+148 silly addNameRange     '0.0.7',
+148 silly addNameRange     '0.0.8',
+148 silly addNameRange     '0.0.9',
+148 silly addNameRange     '0.0.10',
+148 silly addNameRange     '0.0.11',
+148 silly addNameRange     '0.0.13',
+148 silly addNameRange     '0.0.14',
+148 silly addNameRange     '0.0.15',
+148 silly addNameRange     '0.0.16',
+148 silly addNameRange     '0.0.17',
+148 silly addNameRange     '0.0.18',
+148 silly addNameRange     '0.0.19',
+148 silly addNameRange     '1.0.0',
+148 silly addNameRange     '1.0.1',
+148 silly addNameRange     '1.1.0',
+148 silly addNameRange     '1.1.1',
+148 silly addNameRange     '1.1.2',
+148 silly addNameRange     '1.1.3',
+148 silly addNameRange     '1.1.5',
+148 silly addNameRange     '1.1.6',
+148 silly addNameRange     '1.1.7',
+148 silly addNameRange     '1.1.8',
+148 silly addNameRange     '1.1.9',
+148 silly addNameRange     '1.1.10',
+148 silly addNameRange     '1.2.0' ] ]
+149 verbose addNamed [ 'later', '1.2.0' ]
+150 verbose addNamed [ '1.2.0', '1.2.0' ]
+151 silly lockFile 70fde1da-later-1-2-0 later@1.2.0
+152 verbose lock later@1.2.0 /home/jacobhartnell/.npm/70fde1da-later-1-2-0.lock
+153 silly lockFile 70fde1da-later-1-2-0 later@1.2.0
+154 silly lockFile 70fde1da-later-1-2-0 later@1.2.0
+155 silly lockFile 8e0f69b1-later-1-2-0 later@^1.2.0
+156 silly lockFile 8e0f69b1-later-1-2-0 later@^1.2.0
+157 http 304 https://registry.npmjs.org/ddp-ejson
+158 silly registry.get cb [ 304,
+158 silly registry.get   { date: 'Tue, 23 Feb 2016 21:44:33 GMT',
+158 silly registry.get     via: '1.1 varnish',
+158 silly registry.get     'cache-control': 'max-age=300',
+158 silly registry.get     etag: '"2BN62634OIGTPJJ8A0NOGUJD5"',
+158 silly registry.get     age: '0',
+158 silly registry.get     connection: 'keep-alive',
+158 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+158 silly registry.get     'x-cache': 'HIT',
+158 silly registry.get     'x-cache-hits': '1',
+158 silly registry.get     'x-timer': 'S1456263873.097319,VS0,VE81',
+158 silly registry.get     vary: 'Accept' } ]
+159 verbose etag https://registry.npmjs.org/ddp-ejson from cache
+160 http 304 https://registry.npmjs.org/ddp
+161 silly registry.get cb [ 304,
+161 silly registry.get   { date: 'Tue, 23 Feb 2016 21:44:33 GMT',
+161 silly registry.get     via: '1.1 varnish',
+161 silly registry.get     'cache-control': 'max-age=300',
+161 silly registry.get     etag: '"4JXLK854VF6V8QT2WX5ZCUXXQ"',
+161 silly registry.get     age: '0',
+161 silly registry.get     connection: 'keep-alive',
+161 silly registry.get     'x-served-by': 'cache-lax1425-LAX',
+161 silly registry.get     'x-cache': 'HIT',
+161 silly registry.get     'x-cache-hits': '1',
+161 silly registry.get     'x-timer': 'S1456263873.096822,VS0,VE82',
+161 silly registry.get     vary: 'Accept' } ]
+162 verbose etag https://registry.npmjs.org/ddp from cache
+163 http 304 https://registry.npmjs.org/grow.js
+164 silly registry.get cb [ 304,
+164 silly registry.get   { date: 'Tue, 23 Feb 2016 21:44:33 GMT',
+164 silly registry.get     via: '1.1 varnish',
+164 silly registry.get     'cache-control': 'max-age=300',
+164 silly registry.get     etag: '"DP2TUPM4URO082F50WELD30KE"',
+164 silly registry.get     age: '0',
+164 silly registry.get     connection: 'keep-alive',
+164 silly registry.get     'x-served-by': 'cache-lax1427-LAX',
+164 silly registry.get     'x-cache': 'MISS',
+164 silly registry.get     'x-cache-hits': '0',
+164 silly registry.get     'x-timer': 'S1456263873.097542,VS0,VE89',
+164 silly registry.get     vary: 'Accept' } ]
+165 verbose etag https://registry.npmjs.org/grow.js from cache
+166 silly addNameRange number 2 { name: 'ddp-ejson', range: '>=0.8.1-3', hasData: true }
+167 silly addNameRange versions [ 'ddp-ejson', [ '0.8.1-1', '0.8.1-2', '0.8.1-3' ] ]
+168 verbose addNamed [ 'ddp-ejson', '0.8.1-3' ]
+169 verbose addNamed [ '0.8.1-3', '0.8.1-3' ]
+170 silly lockFile 4a5df4a6-ddp-ejson-0-8-1-3 ddp-ejson@0.8.1-3
+171 verbose lock ddp-ejson@0.8.1-3 /home/jacobhartnell/.npm/4a5df4a6-ddp-ejson-0-8-1-3.lock
+172 silly addNameRange number 2 { name: 'grow.js', range: '>=0.1.2-0 <0.2.0-0', hasData: true }
+173 silly addNameRange versions [ 'grow.js', [ '0.1.0', '0.1.1' ] ]
+174 silly lockFile efa081ee-grow-js-0-1-2 grow.js@^0.1.2
+175 silly lockFile efa081ee-grow-js-0-1-2 grow.js@^0.1.2
+176 silly addNameRange number 2 { name: 'ddp', range: '>=0.11.0', hasData: true }
+177 silly addNameRange versions [ 'ddp',
+177 silly addNameRange   [ '0.1.0',
+177 silly addNameRange     '0.1.1',
+177 silly addNameRange     '0.2.0',
+177 silly addNameRange     '0.2.1',
+177 silly addNameRange     '0.2.2',
+177 silly addNameRange     '0.2.3',
+177 silly addNameRange     '0.3.0',
+177 silly addNameRange     '0.3.1',
+177 silly addNameRange     '0.3.2',
+177 silly addNameRange     '0.3.3',
+177 silly addNameRange     '0.3.4',
+177 silly addNameRange     '0.3.5',
+177 silly addNameRange     '0.3.6',
+177 silly addNameRange     '0.3.7',
+177 silly addNameRange     '0.4.0',
+177 silly addNameRange     '0.4.1',
+177 silly addNameRange     '0.4.2',
+177 silly addNameRange     '0.4.3',
+177 silly addNameRange     '0.4.4',
+177 silly addNameRange     '0.4.5',
+177 silly addNameRange     '0.4.6',
+177 silly addNameRange     '0.5.0',
+177 silly addNameRange     '0.5.1',
+177 silly addNameRange     '0.5.2',
+177 silly addNameRange     '0.6.0',
+177 silly addNameRange     '0.7.0',
+177 silly addNameRange     '0.8.0',
+177 silly addNameRange     '0.8.1',
+177 silly addNameRange     '0.8.2',
+177 silly addNameRange     '0.9.0',
+177 silly addNameRange     '0.9.1',
+177 silly addNameRange     '0.9.2',
+177 silly addNameRange     '0.9.3',
+177 silly addNameRange     '0.9.4',
+177 silly addNameRange     '0.10.0',
+177 silly addNameRange     '0.11.0' ] ]
+178 verbose addNamed [ 'ddp', '0.11.0' ]
+179 verbose addNamed [ '0.11.0', '0.11.0' ]
+180 silly lockFile d6b38e93-ddp-0-11-0 ddp@0.11.0
+181 verbose lock ddp@0.11.0 /home/jacobhartnell/.npm/d6b38e93-ddp-0-11-0.lock
+182 silly lockFile 4a5df4a6-ddp-ejson-0-8-1-3 ddp-ejson@0.8.1-3
+183 silly lockFile 4a5df4a6-ddp-ejson-0-8-1-3 ddp-ejson@0.8.1-3
+184 silly lockFile 31a652e8-ddp-ejson-0-8-1-3 ddp-ejson@>=0.8.1-3
+185 silly lockFile 31a652e8-ddp-ejson-0-8-1-3 ddp-ejson@>=0.8.1-3
+186 silly lockFile d6b38e93-ddp-0-11-0 ddp@0.11.0
+187 silly lockFile d6b38e93-ddp-0-11-0 ddp@0.11.0
+188 silly lockFile e8427880-ddp-0-11-0 ddp@>=0.11.0
+189 silly lockFile e8427880-ddp-0-11-0 ddp@>=0.11.0
+190 http 200 https://registry.npmjs.org/underscore
+191 silly registry.get cb [ 200,
+191 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+191 silly registry.get     etag: '"3TXZL8KO7ZID408XFYC9PDHMY"',
+191 silly registry.get     'content-type': 'application/json',
+191 silly registry.get     'cache-control': 'max-age=300',
+191 silly registry.get     'content-length': '42419',
+191 silly registry.get     'accept-ranges': 'bytes',
+191 silly registry.get     date: 'Tue, 23 Feb 2016 21:44:33 GMT',
+191 silly registry.get     via: '1.1 varnish',
+191 silly registry.get     age: '80',
+191 silly registry.get     connection: 'keep-alive',
+191 silly registry.get     'x-served-by': 'cache-sjc3122-SJC',
+191 silly registry.get     'x-cache': 'HIT',
+191 silly registry.get     'x-cache-hits': '7',
+191 silly registry.get     'x-timer': 'S1456263873.176165,VS0,VE0',
+191 silly registry.get     vary: 'Accept' } ]
+192 silly addNameRange number 2 { name: 'underscore', range: '>=1.8.3', hasData: true }
+193 silly addNameRange versions [ 'underscore',
+193 silly addNameRange   [ '1.0.3',
+193 silly addNameRange     '1.0.4',
+193 silly addNameRange     '1.1.0',
+193 silly addNameRange     '1.1.1',
+193 silly addNameRange     '1.1.2',
+193 silly addNameRange     '1.1.3',
+193 silly addNameRange     '1.1.4',
+193 silly addNameRange     '1.1.5',
+193 silly addNameRange     '1.1.6',
+193 silly addNameRange     '1.1.7',
+193 silly addNameRange     '1.2.0',
+193 silly addNameRange     '1.2.1',
+193 silly addNameRange     '1.2.2',
+193 silly addNameRange     '1.2.3',
+193 silly addNameRange     '1.2.4',
+193 silly addNameRange     '1.3.0',
+193 silly addNameRange     '1.3.1',
+193 silly addNameRange     '1.3.2',
+193 silly addNameRange     '1.3.3',
+193 silly addNameRange     '1.4.0',
+193 silly addNameRange     '1.4.1',
+193 silly addNameRange     '1.4.2',
+193 silly addNameRange     '1.4.3',
+193 silly addNameRange     '1.4.4',
+193 silly addNameRange     '1.5.0',
+193 silly addNameRange     '1.5.1',
+193 silly addNameRange     '1.5.2',
+193 silly addNameRange     '1.6.0',
+193 silly addNameRange     '1.7.0',
+193 silly addNameRange     '1.8.0',
+193 silly addNameRange     '1.8.1',
+193 silly addNameRange     '1.8.2',
+193 silly addNameRange     '1.8.3' ] ]
+194 verbose addNamed [ 'underscore', '1.8.3' ]
+195 verbose addNamed [ '1.8.3', '1.8.3' ]
+196 silly lockFile e5e32fca-underscore-1-8-3 underscore@1.8.3
+197 verbose lock underscore@1.8.3 /home/jacobhartnell/.npm/e5e32fca-underscore-1-8-3.lock
+198 silly lockFile e5e32fca-underscore-1-8-3 underscore@1.8.3
+199 silly lockFile e5e32fca-underscore-1-8-3 underscore@1.8.3
+200 silly lockFile 0649f45b-underscore-1-8-3 underscore@>=1.8.3
+201 silly lockFile 0649f45b-underscore-1-8-3 underscore@>=1.8.3
+202 http 200 https://registry.npmjs.org/raspi-io
+203 silly registry.get cb [ 200,
+203 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+203 silly registry.get     etag: '"TWALFXFGH2LZDOEMW741W76W"',
+203 silly registry.get     'content-type': 'application/json',
+203 silly registry.get     'cache-control': 'max-age=300',
+203 silly registry.get     'content-length': '66373',
+203 silly registry.get     'accept-ranges': 'bytes',
+203 silly registry.get     date: 'Tue, 23 Feb 2016 21:44:33 GMT',
+203 silly registry.get     via: '1.1 varnish',
+203 silly registry.get     age: '0',
+203 silly registry.get     connection: 'keep-alive',
+203 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+203 silly registry.get     'x-cache': 'MISS',
+203 silly registry.get     'x-cache-hits': '0',
+203 silly registry.get     'x-timer': 'S1456263873.263754,VS0,VE83',
+203 silly registry.get     vary: 'Accept' } ]
+204 silly addNameRange number 2 { name: 'raspi-io', range: '>=5.2.0-0 <6.0.0-0', hasData: true }
+205 silly addNameRange versions [ 'raspi-io',
+205 silly addNameRange   [ '0.1.0',
+205 silly addNameRange     '0.1.1',
+205 silly addNameRange     '0.1.2',
+205 silly addNameRange     '0.1.4',
+205 silly addNameRange     '0.1.5',
+205 silly addNameRange     '0.1.7',
+205 silly addNameRange     '0.1.8',
+205 silly addNameRange     '0.1.9',
+205 silly addNameRange     '0.1.10',
+205 silly addNameRange     '0.1.11',
+205 silly addNameRange     '0.1.12',
+205 silly addNameRange     '0.1.13',
+205 silly addNameRange     '0.1.14',
+205 silly addNameRange     '1.0.0',
+205 silly addNameRange     '1.0.1',
+205 silly addNameRange     '1.0.2',
+205 silly addNameRange     '1.0.3',
+205 silly addNameRange     '2.0.0',
+205 silly addNameRange     '2.0.1',
+205 silly addNameRange     '2.0.2',
+205 silly addNameRange     '2.0.3',
+205 silly addNameRange     '2.0.4',
+205 silly addNameRange     '2.0.5',
+205 silly addNameRange     '2.0.6',
+205 silly addNameRange     '2.0.7',
+205 silly addNameRange     '2.1.0',
+205 silly addNameRange     '2.2.0',
+205 silly addNameRange     '2.2.1',
+205 silly addNameRange     '2.2.2',
+205 silly addNameRange     '2.2.3',
+205 silly addNameRange     '3.0.0',
+205 silly addNameRange     '3.0.1',
+205 silly addNameRange     '3.1.0',
+205 silly addNameRange     '3.1.1',
+205 silly addNameRange     '3.2.0',
+205 silly addNameRange     '3.2.1',
+205 silly addNameRange     '3.2.2',
+205 silly addNameRange     '3.3.0',
+205 silly addNameRange     '3.3.1',
+205 silly addNameRange     '3.3.3',
+205 silly addNameRange     '3.3.4',
+205 silly addNameRange     '3.3.5',
+205 silly addNameRange     '3.4.0',
+205 silly addNameRange     '4.0.0',
+205 silly addNameRange     '4.1.0',
+205 silly addNameRange     '5.0.0',
+205 silly addNameRange     '5.1.0',
+205 silly addNameRange     '5.2.0',
+205 silly addNameRange     '5.3.0' ] ]
+206 verbose addNamed [ 'raspi-io', '5.3.0' ]
+207 verbose addNamed [ '5.3.0', '5.3.0' ]
+208 silly lockFile f9ce3449-raspi-io-5-3-0 raspi-io@5.3.0
+209 verbose lock raspi-io@5.3.0 /home/jacobhartnell/.npm/f9ce3449-raspi-io-5-3-0.lock
+210 silly lockFile 3ce6a281--org-raspi-io-raspi-io-5-3-0-tgz https://registry.npmjs.org/raspi-io/-/raspi-io-5.3.0.tgz
+211 verbose lock https://registry.npmjs.org/raspi-io/-/raspi-io-5.3.0.tgz /home/jacobhartnell/.npm/3ce6a281--org-raspi-io-raspi-io-5-3-0-tgz.lock
+212 verbose addRemoteTarball [ 'https://registry.npmjs.org/raspi-io/-/raspi-io-5.3.0.tgz',
+212 verbose addRemoteTarball   '2114cd97dbd2ce2479c59e9ccd527a4b57babf48' ]
+213 info retry fetch attempt 1 at 13:44:33
+214 verbose fetch to= /tmp/npm-12254-adA9Dgt9/registry.npmjs.org/raspi-io/-/raspi-io-5.3.0.tgz
+215 http GET https://registry.npmjs.org/raspi-io/-/raspi-io-5.3.0.tgz
+216 http 200 https://registry.npmjs.org/raspi-io/-/raspi-io-5.3.0.tgz
+217 http 200 https://registry.npmjs.org/johnny-five
+218 silly registry.get cb [ 200,
+218 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+218 silly registry.get     etag: '"9RI8PFBP1PG5TPIIFFJIBDX7S"',
+218 silly registry.get     'content-type': 'application/json',
+218 silly registry.get     'cache-control': 'max-age=300',
+218 silly registry.get     'content-length': '1223089',
+218 silly registry.get     'accept-ranges': 'bytes',
+218 silly registry.get     date: 'Tue, 23 Feb 2016 21:44:33 GMT',
+218 silly registry.get     via: '1.1 varnish',
+218 silly registry.get     age: '0',
+218 silly registry.get     connection: 'keep-alive',
+218 silly registry.get     'x-served-by': 'cache-lax1430-LAX',
+218 silly registry.get     'x-cache': 'HIT',
+218 silly registry.get     'x-cache-hits': '1',
+218 silly registry.get     'x-timer': 'S1456263873.130474,VS0,VE185',
+218 silly registry.get     vary: 'Accept' } ]
+219 silly lockFile 3ce6a281--org-raspi-io-raspi-io-5-3-0-tgz https://registry.npmjs.org/raspi-io/-/raspi-io-5.3.0.tgz
+220 silly lockFile 3ce6a281--org-raspi-io-raspi-io-5-3-0-tgz https://registry.npmjs.org/raspi-io/-/raspi-io-5.3.0.tgz
+221 silly lockFile f9ce3449-raspi-io-5-3-0 raspi-io@5.3.0
+222 silly lockFile f9ce3449-raspi-io-5-3-0 raspi-io@5.3.0
+223 silly lockFile 5ebb9da6-raspi-io-5-2-0 raspi-io@^5.2.0
+224 silly lockFile 5ebb9da6-raspi-io-5-2-0 raspi-io@^5.2.0
+225 silly addNameRange number 2 { name: 'johnny-five',
+225 silly addNameRange   range: '>=0.9.19-0 <0.10.0-0',
+225 silly addNameRange   hasData: true }
+226 silly addNameRange versions [ 'johnny-five',
+226 silly addNameRange   [ '0.1.5',
+226 silly addNameRange     '0.1.6',
+226 silly addNameRange     '0.1.7',
+226 silly addNameRange     '0.1.901',
+226 silly addNameRange     '0.1.911',
+226 silly addNameRange     '0.1.950',
+226 silly addNameRange     '0.2.0',
+226 silly addNameRange     '0.2.1',
+226 silly addNameRange     '0.2.2',
+226 silly addNameRange     '0.2.3',
+226 silly addNameRange     '0.2.4',
+226 silly addNameRange     '0.3.0',
+226 silly addNameRange     '0.5.0',
+226 silly addNameRange     '0.5.2',
+226 silly addNameRange     '0.5.5',
+226 silly addNameRange     '0.5.91',
+226 silly addNameRange     '0.5.95',
+226 silly addNameRange     '0.5.97',
+226 silly addNameRange     '0.5.10',
+226 silly addNameRange     '0.5.11',
+226 silly addNameRange     '0.5.14',
+226 silly addNameRange     '0.5.15',
+226 silly addNameRange     '0.5.16',
+226 silly addNameRange     '0.5.17',
+226 silly addNameRange     '0.6.0',
+226 silly addNameRange     '0.6.1',
+226 silly addNameRange     '0.6.2',
+226 silly addNameRange     '0.6.3',
+226 silly addNameRange     '0.6.5',
+226 silly addNameRange     '0.6.6',
+226 silly addNameRange     '0.6.8',
+226 silly addNameRange     '0.6.9',
+226 silly addNameRange     '0.6.11',
+226 silly addNameRange     '0.6.13',
+226 silly addNameRange     '0.6.14',
+226 silly addNameRange     '0.6.15',
+226 silly addNameRange     '0.6.16',
+226 silly addNameRange     '0.6.17',
+226 silly addNameRange     '0.6.18',
+226 silly addNameRange     '0.6.19',
+226 silly addNameRange     '0.6.20',
+226 silly addNameRange     '0.7.0',
+226 silly addNameRange     '0.7.1',
+226 silly addNameRange     '0.7.2',
+226 silly addNameRange     '0.7.3',
+226 silly addNameRange     '0.7.4',
+226 silly addNameRange     '0.7.5',
+226 silly addNameRange     '0.7.6',
+226 silly addNameRange     '0.7.8',
+226 silly addNameRange     '0.7.10',
+226 silly addNameRange     '0.7.11',
+226 silly addNameRange     '0.7.13',
+226 silly addNameRange     '0.7.15',
+226 silly addNameRange     '0.7.16',
+226 silly addNameRange     '0.7.17',
+226 silly addNameRange     '0.7.18',
+226 silly addNameRange     '0.7.19',
+226 silly addNameRange     '0.7.20',
+226 silly addNameRange     '0.7.21',
+226 silly addNameRange     '0.7.22',
+226 silly addNameRange     '0.7.23',
+226 silly addNameRange     '0.7.24',
+226 silly addNameRange     '0.7.26',
+226 silly addNameRange     '0.7.27',
+226 silly addNameRange     '0.7.28',
+226 silly addNameRange     '0.7.29',
+226 silly addNameRange     '0.7.30',
+226 silly addNameRange     '0.7.31',
+226 silly addNameRange     '0.7.32',
+226 silly addNameRange     '0.7.33',
+226 silly addNameRange     '0.7.34',
+226 silly addNameRange     '0.7.35',
+226 silly addNameRange     '0.7.36',
+226 silly addNameRange     '0.7.37',
+226 silly addNameRange     '0.7.38',
+226 silly addNameRange     '0.7.39',
+226 silly addNameRange     '0.7.40',
+226 silly addNameRange     '0.7.41',
+226 silly addNameRange     '0.7.42',
+226 silly addNameRange     '0.7.43',
+226 silly addNameRange     '0.7.44',
+226 silly addNameRange     '0.7.45',
+226 silly addNameRange     '0.7.46',
+226 silly addNameRange     '0.7.47',
+226 silly addNameRange     '0.7.48',
+226 silly addNameRange     '0.7.49',
+226 silly addNameRange     '0.7.50',
+226 silly addNameRange     '0.7.51',
+226 silly addNameRange     '0.7.52',
+226 silly addNameRange     '0.7.54',
+226 silly addNameRange     '0.7.55',
+226 silly addNameRange     '0.7.56',
+226 silly addNameRange     '0.8.0',
+226 silly addNameRange     '0.8.1',
+226 silly addNameRange     '0.8.2',
+226 silly addNameRange     '0.8.3',
+226 silly addNameRange     '0.8.4',
+226 silly addNameRange     '0.8.5',
+226 silly addNameRange     '0.8.6',
+226 silly addNameRange     '0.8.7',
+226 silly addNameRange     '0.8.8',
+226 silly addNameRange     '0.8.9',
+226 silly addNameRange     '0.8.10',
+226 silly addNameRange     '0.8.11',
+226 silly addNameRange     '0.8.12',
+226 silly addNameRange     '0.8.13',
+226 silly addNameRange     '0.8.14',
+226 silly addNameRange     '0.8.15',
+226 silly addNameRange     '0.8.16',
+226 silly addNameRange     '0.8.17',
+226 silly addNameRange     '0.8.18',
+226 silly addNameRange     '0.8.19',
+226 silly addNameRange     '0.8.20',
+226 silly addNameRange     '0.8.21',
+226 silly addNameRange     '0.8.22',
+226 silly addNameRange     '0.8.23',
+226 silly addNameRange     '0.8.24',
+226 silly addNameRange     '0.8.25',
+226 silly addNameRange     '0.8.26',
+226 silly addNameRange     '0.8.27',
+226 silly addNameRange     '0.8.28',
+226 silly addNameRange     '0.8.29',
+226 silly addNameRange     '0.8.30',
+226 silly addNameRange     '0.8.31',
+226 silly addNameRange     '0.8.32',
+226 silly addNameRange     '0.8.33',
+226 silly addNameRange     '0.8.34',
+226 silly addNameRange     '0.8.36',
+226 silly addNameRange     '0.8.37',
+226 silly addNameRange     '0.8.38',
+226 silly addNameRange     '0.8.39',
+226 silly addNameRange     '0.8.40',
+226 silly addNameRange     '0.8.41-dev-001',
+226 silly addNameRange     '0.8.41-dev-002',
+226 silly addNameRange     '0.8.41',
+226 silly addNameRange     '0.8.42',
+226 silly addNameRange     '0.8.43',
+226 silly addNameRange     '0.8.44',
+226 silly addNameRange     '0.8.45',
+226 silly addNameRange     '0.8.46',
+226 silly addNameRange     '0.8.47',
+226 silly addNameRange     '0.8.48',
+226 silly addNameRange     '0.8.49',
+226 silly addNameRange     '0.8.50',
+226 silly addNameRange     '0.8.51',
+226 silly addNameRange     '0.8.52',
+226 silly addNameRange     '0.8.53',
+226 silly addNameRange     '0.8.54',
+226 silly addNameRange     '0.8.55',
+226 silly addNameRange     '0.8.56',
+226 silly addNameRange     '0.8.57',
+226 silly addNameRange     '0.8.58',
+226 silly addNameRange     '0.8.59',
+226 silly addNameRange     '0.8.60',
+226 silly addNameRange     '0.8.61',
+226 silly addNameRange     '0.8.62',
+226 silly addNameRange     '0.8.63',
+226 silly addNameRange     '0.8.64',
+226 silly addNameRange     '0.8.65',
+226 silly addNameRange     '0.8.66',
+226 silly addNameRange     '0.8.67',
+226 silly addNameRange     '0.8.68',
+226 silly addNameRange     '0.8.69',
+226 silly addNameRange     '0.8.70',
+226 silly addNameRange     '0.8.71',
+226 silly addNameRange     '0.8.72',
+226 silly addNameRange     '0.8.73',
+226 silly addNameRange     '0.8.74',
+226 silly addNameRange     '0.8.75',
+226 silly addNameRange     '0.8.76',
+226 silly addNameRange     '0.8.77',
+226 silly addNameRange     '0.8.78',
+226 silly addNameRange     '0.8.79',
+226 silly addNameRange     '0.8.80',
+226 silly addNameRange     '0.8.81',
+226 silly addNameRange     '0.8.83',
+226 silly addNameRange     '0.8.84',
+226 silly addNameRange     '0.8.85',
+226 silly addNameRange     '0.8.86',
+226 silly addNameRange     '0.8.87',
+226 silly addNameRange     '0.8.88',
+226 silly addNameRange     '0.8.89',
+226 silly addNameRange     '0.8.90',
+226 silly addNameRange     '0.8.91',
+226 silly addNameRange     '0.8.92',
+226 silly addNameRange     '0.8.93',
+226 silly addNameRange     '0.8.94',
+226 silly addNameRange     '0.8.95',
+226 silly addNameRange     '0.8.96',
+226 silly addNameRange     '0.8.97',
+226 silly addNameRange     '0.8.98',
+226 silly addNameRange     '0.8.99',
+226 silly addNameRange     '0.8.100',
+226 silly addNameRange     '0.8.101',
+226 silly addNameRange     '0.8.102',
+226 silly addNameRange     '0.8.103',
+226 silly addNameRange     '0.8.104',
+226 silly addNameRange     '0.8.105',
+226 silly addNameRange     '0.8.106',
+226 silly addNameRange     '0.9.1',
+226 silly addNameRange     '0.9.2',
+226 silly addNameRange     '0.9.3',
+226 silly addNameRange     '0.9.4',
+226 silly addNameRange     '0.9.5',
+226 silly addNameRange     '0.9.6',
+226 silly addNameRange     '0.9.7',
+226 silly addNameRange     '0.9.8',
+226 silly addNameRange     '0.9.9',
+226 silly addNameRange     '0.9.10',
+226 silly addNameRange     '0.9.11',
+226 silly addNameRange     '0.9.12',
+226 silly addNameRange     '0.9.13',
+226 silly addNameRange     '0.9.14',
+226 silly addNameRange     '0.9.15',
+226 silly addNameRange     '0.9.16',
+226 silly addNameRange     '0.9.17',
+226 silly addNameRange     '0.9.18',
+226 silly addNameRange     '0.9.19',
+226 silly addNameRange     '0.9.20',
+226 silly addNameRange     '0.9.21',
+226 silly addNameRange     '0.9.22',
+226 silly addNameRange     '0.9.23',
+226 silly addNameRange     '0.9.24',
+226 silly addNameRange     '0.9.25' ] ]
+227 verbose addNamed [ 'johnny-five', '0.9.25' ]
+228 verbose addNamed [ '0.9.25', '0.9.25' ]
+229 silly lockFile 6453ddbb-johnny-five-0-9-25 johnny-five@0.9.25
+230 verbose lock johnny-five@0.9.25 /home/jacobhartnell/.npm/6453ddbb-johnny-five-0-9-25.lock
+231 silly lockFile bcd1d128-hnny-five-johnny-five-0-9-25-tgz https://registry.npmjs.org/johnny-five/-/johnny-five-0.9.25.tgz
+232 verbose lock https://registry.npmjs.org/johnny-five/-/johnny-five-0.9.25.tgz /home/jacobhartnell/.npm/bcd1d128-hnny-five-johnny-five-0-9-25-tgz.lock
+233 verbose addRemoteTarball [ 'https://registry.npmjs.org/johnny-five/-/johnny-five-0.9.25.tgz',
+233 verbose addRemoteTarball   'b200b5d162e316f2d9c562bccad63da02d5221ae' ]
+234 info retry fetch attempt 1 at 13:44:41
+235 verbose fetch to= /tmp/npm-12254-adA9Dgt9/registry.npmjs.org/johnny-five/-/johnny-five-0.9.25.tgz
+236 http GET https://registry.npmjs.org/johnny-five/-/johnny-five-0.9.25.tgz
+237 http 200 https://registry.npmjs.org/johnny-five/-/johnny-five-0.9.25.tgz
+238 silly lockFile bcd1d128-hnny-five-johnny-five-0-9-25-tgz https://registry.npmjs.org/johnny-five/-/johnny-five-0.9.25.tgz
+239 silly lockFile bcd1d128-hnny-five-johnny-five-0-9-25-tgz https://registry.npmjs.org/johnny-five/-/johnny-five-0.9.25.tgz
+240 silly lockFile 6453ddbb-johnny-five-0-9-25 johnny-five@0.9.25
+241 silly lockFile 6453ddbb-johnny-five-0-9-25 johnny-five@0.9.25
+242 silly lockFile a775ca05-johnny-five-0-9-19 johnny-five@^0.9.19
+243 silly lockFile a775ca05-johnny-five-0-9-19 johnny-five@^0.9.19
+244 error notarget No compatible version found: grow.js@'>=0.1.2-0 <0.2.0-0'
+244 error notarget Valid install targets:
+244 error notarget ["0.1.0","0.1.1"]
+244 error notarget
+244 error notarget This is most likely not a problem with npm itself.
+244 error notarget In most cases you or one of your dependencies are requesting
+244 error notarget a package version that doesn't exist.
+245 error System Linux 4.2.0-27-generic
+246 error command "/usr/bin/node" "/usr/bin/npm" "install"
+247 error cwd /home/jacobhartnell/Dev/grow-examples/raspberry-pi
+248 error node -v v0.10.37
+249 error npm -v 1.4.28
+250 error code ETARGET
+251 verbose exit [ 1, true ]
