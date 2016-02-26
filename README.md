@@ -2,6 +2,10 @@
 
 You'll need to get you raspberry pi setup and an connected to the internet either by an ethernet cable or wifi usb adapter.
 
+These instructions assume you are using the latest version of Rasbian, *Jessie*, and not the previous version. See the [raspberry pi documentation]() for how to create an sd card with this operating system.
+
+### Update software
+
 First make sure your software is up to date, run the following in the terminal:
 
 ```
@@ -9,13 +13,13 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Great. We're ready to install nodejs and npm! Try:
+Great. Check and see if you have node.js installed by typing `node` in the terminal. You should see a `>`, press `control + c` or `control + shift + c` to exit. If not you'll need to install node.js (hint: use your favorite search engine to find results for "how to install nodejs on Raspberry pi"). 
+
+We're ready to install npm!
 
 ```
-sudo apt-get install nodejs npm
+sudo apt-get install npm
 ```
-
-If that doesn't work, a quick google for "install nodejs on Raspberry pi" should get you pointed in the right direction.
 
 Once node and npm are installed, we can clone the repo, enter the new directory, and install the software dependencies.
 
